@@ -41,7 +41,7 @@
     box-shadow: 20px -18px 20px #000;
 }
 .body-debug {
-	background: black url(/static/img/GrassBlades.jpg) repeat fixed 50% 0%;
+	background: black url(../img/GrassBlades.jpg) repeat fixed 50% 0%;
 }
 /* assistiveTouch */
 .poisson {
@@ -97,25 +97,25 @@
 .cc {left: 180px;	top: -540px;}
 /* the grid icon */
 .back.second{}
-.gesture	{background: #000 url(/static/img/gesture.png)	no-repeat 50% 50%;}
-.home		{background: #000 url(/static/img/home.png)		no-repeat 50% 50%;}
-.device		{background: #000 url(/static/img/device.png)	no-repeat 50% 50%;}
-.favorite	{background: #000 url(/static/img/favorite.png) no-repeat 50% 50%;}
-.back, .back2parent	{background: #000 url(/static/img/back.png)		no-repeat 50% 50%;}
-.left		{background: #000 url(/static/img/left.png)		no-repeat 50% 50%;}
-.right		{background: #000 url(/static/img/right.png)	no-repeat 50% 50%;}
-.media		{background: #000 url(/static/img/media.png)	no-repeat 50% 50%;}
-.zoom-in	{background: #000 url(/static/img/zoom-in.png)	no-repeat 50% 50%;}
-.zoom-out	{background: #000 url(/static/img/zoom-out.png)	no-repeat 50% 50%;}
-.image		{background: #000 url(/static/img/image.png)	no-repeat 50% 50%;}
-.video		{background: #000 url(/static/img/video.png)	no-repeat 50% 50%;}
-.play		{background: #000 url(/static/img/play.png)		no-repeat 50% 50%;}
-.pause		{background: #000 url(/static/img/pause.png)	no-repeat 50% 50%;}
-.forward	{background: #000 url(/static/img/forward.png)	no-repeat 50% 50%;}
-.backward	{background: #000 url(/static/img/backward.png)	no-repeat 50% 50%;}
-.add		{background: #000 url(/static/img/add.png)		no-repeat 50% 50%;}
-.filelist	{background: #000 url(/static/img/filelist.png)	no-repeat 50% 50%;}
-.move		{background: #000 url(/static/img/move.png)		no-repeat 50% 50%; cursor: move;}
+.back, .back2parent	{background: #000 url(../img/back.png)		no-repeat 50% 50%;}
+.gesture	{background: #000 url(../img/gesture.png)	no-repeat 50% 50%;}
+.home		{background: #000 url(../img/home.png)		no-repeat 50% 50%;}
+.device		{background: #000 url(../img/device.png)	no-repeat 50% 50%;}
+.favorite	{background: #000 url(../img/favorite.png) no-repeat 50% 50%;}
+.left		{background: #000 url(../img/left.png)		no-repeat 50% 50%;}
+.right		{background: #000 url(../img/right.png)	no-repeat 50% 50%;}
+.media		{background: #000 url(../img/media.png)	no-repeat 50% 50%;}
+.zoom-in	{background: #000 url(../img/zoom-in.png)	no-repeat 50% 50%;}
+.zoom-out	{background: #000 url(../img/zoom-out.png)	no-repeat 50% 50%;}
+.image		{background: #000 url(../img/image.png)	no-repeat 50% 50%;}
+.video		{background: #000 url(../img/video.png)	no-repeat 50% 50%;}
+.play		{background: #000 url(../img/play.png)		no-repeat 50% 50%;}
+.pause		{background: #000 url(../img/pause.png)	no-repeat 50% 50%;}
+.forward	{background: #000 url(../img/forward.png)	no-repeat 50% 50%;}
+.backward	{background: #000 url(../img/backward.png)	no-repeat 50% 50%;}
+.add		{background: #000 url(../img/add.png)		no-repeat 50% 50%;}
+.filelist	{background: #000 url(../img/filelist.png)	no-repeat 50% 50%;}
+.move		{background: #000 url(../img/move.png)		no-repeat 50% 50%; cursor: move;}
 /* .the grid icon */
 .mplayer {
 	/* for debug  */
@@ -194,7 +194,7 @@
 	left: 100%;
 	margin-left: -25px;
 	opacity: 0.8;
-	background: #F2F5F9 url(/static/img/littleplay.png) no-repeat 50% 50%;
+	background: #F2F5F9 url(../img/littleplay.png) no-repeat 50% 50%;
 	cursor: pointer;
 }
 .icon_close {
@@ -205,7 +205,7 @@
 	left: 100%;
 	margin-left: -25px;
 	opacity: 0.8;
-	background: #000 url(/static/img/icon_close.png) no-repeat 50% 50%;
+	background: #000 url(../img/icon_close.png) no-repeat 50% 50%;
 }
 .fileinfo {
 	width: 350px;
