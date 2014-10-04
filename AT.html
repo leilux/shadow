@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta content="width=device-width,minimum-scale=1.0" id="vp" name="viewport">
+    <link rel='stylesheet' type='text/css' href='static/css/at.css'/>
+  </head>
+<body class="body-debug">
+  <!--<input type="range" onmouseup="alert(this.value)" min='0' max='100' step='10' title='input range'>-->
+
+  <script type="text/javascript" src='static/js/jquery-1.9.1.min.js'></script>
+  <script type="text/javascript" src='static/js/jquery-ui.min.js'></script>
+  <script type="text/javascript" src='static/js/jquery.ui.touch-punch.min.js'></script>
+  
+  <script type="text/javascript" src='static/js/filelist.js'></script>
+  <script type="text/javascript" src='static/js/shadow.js'></script>
+  <script>
+  //alert('something really cool !')
+  //addPoisson();
+  
+  /* test zoom animation
+  d = $('zoom');
+  s = Scale(0, 0);
+  e = Scale(300, 300);
+  z_s = parseFloat(d.style.zoom);
+  //alert(z_s)
+  animate_zoom(d, s, e, z_s, 0.2);
+  */
+  </script>
+
+<!--
+	<div id="zoom" class="grid3x3" style="zoom: 1;">
+		<div id="aa" class="grid aa play"></div>
+		<div id="ab" class="grid ab pause	"></div>
+		<div id="ac" class="grid ac forward "></div>
+		<div id="ba" class="grid ba backward	"></div>
+		<div id="bb" class="grid bb yellow "></div>
+		<div id="bc" class="grid bc black	"></div>
+		<div id="ca" class="grid ca gray	"></div>
+		<div id="cb" class="grid cb debug	"></div>
+		<div id="cc" class="grid cc red"></div>
+	</div>
+-->
+<!--
+	<div id="videodiv" style='position: absolute; left: 685px; top: 41px;'>
+		<div  style="border: 5px solid; border-color: white;"
+			onmousedown="drag(this.parentNode,event);">
+			drag this 
+		</div>
+	<div>
+    <video controls autobuffer id="av" class="html5video">
+	<source src="../开放课程/MIT计算机科学及编程导论/lec16.mp4" type="video/mp4">
+	</video>
+</div>
+</div>
+-->
+<!--
+<div style='position: absolute; left: 30px; top: 141px;'>
+   <audio controls autobuffer id="av" class="html5audio">
+	<source src="../ITUNE/media/Music/微微风儿吹/Unknown Album/莺莺绻 - 记《昆仑》女主角 柳莺莺.m4a" type="audio/mpeg">
+	</audio>
+</div>
+-->
+<!--
+<div class='medaiplay'>
+<br>
+<label> path:  </label><input type='text' id='media_path' value='/root' /></br>
+
+<input  type='button' id='cancel' value='cancel' onmousedown='drag(this,event);'/>
+<input  type='button' id='ok' value='ok' onmousedown='drag(this,event);' />
+</div>
+-->
+<!-- <form><input type="FILE" multiple value="upload"/></form> -->
+<!--
+<div id='pl_div' class='filelistdiv'>
+	<div id='pl_title' class="filelistitle"> ICSP</div>
+	<div id='icsp' class='filelistcontent'>
+		<div class="filelemtcell white"> 
+			<div class="fileinfo">12334455</div> 
+			<div class="icon_play"></div>
+		</div> 
+		<div class="filelemtcell blue "> <div class="fileinfo">12334455</div> <div class="icon_play"></div> </div>
+		<div class="filelemtcell white"> <div class="fileinfo">12334455</div> <div class="icon_play"></div> </div>
+		<div class="filelemtcell blue "> <div class="fileinfo">12334455</div> <div class="icon_play"></div> </div>
+		<div class="filelemtcell white"> <div class="fileinfo">12334455</div> <div class="icon_play"></div> </div>
+		<div class="filelemtcell blue "> <div class="fileinfo">12334455</div> <div class="icon_play"></div> </div>
+		<div class="filelemtcell white"> <div class="fileinfo">12334455</div> <div class="icon_play"></div> </div>
+		<div class="filelemtcell blue "> <div class="fileinfo">12334455</div> <div class="icon_play"></div> </div>
+		<div class="filelemtcell white"> <div class="fileinfo">12334455</div> <div class="icon_play"></div> </div>
+		<div class="filelemtcell blue "> <div class="fileinfo">12334455</div> <div class="icon_play"></div> </div>
+		<div class="filelemtcell white"> <div class="fileinfo">12334455</div> <div class="icon_play"></div> </div>
+		<div class="filelemtcell blue "> <div class="fileinfo">12334455</div> <div class="icon_play"></div> </div>
+		<div class="filelemtcell white"> <div class="fileinfo">12334455</div> <div class="icon_play"></div> </div>
+		<div class="filelemtcell blue "> <div class="fileinfo">12334455</div> <div class="icon_play"></div> </div>
+		<div class="filelemtcell white"> <div class="fileinfo">12334455</div> <div class="icon_play"></div> </div>
+		<div class="filelemtcell blue "> <div class="fileinfo">12334455</div> <div class="icon_play"></div> </div>
+		<div class="filelemtcell white"> <div class="fileinfo">12334455</div> <div class="icon_play"></div> </div>
+		<div class="filelemtcell blue "> <div class="fileinfo">12334455</div> <div class="icon_play"></div> </div>
+		<div class="filelemtcell white"> <div class="fileinfo">12334455</div> <div class="icon_play"></div> </div>
+		<div class="filelemtcell blue "> <div class="fileinfo">12334455</div> <div class="icon_play"></div> </div>
+		<div class="filelemtcell white"> <div class="fileinfo">12334455</div> <div class="icon_play"></div> </div>
+		<div class="filelemtcell blue "> <div class="fileinfo">12334455</div> <div class="icon_play"></div> </div>
+		<div class="filelemtcell white"> <div class="fileinfo">12334455</div> <div class="icon_play"></div> </div>
+	</div>
+</div>
+<script>
+	icsp = filelist.icsp;
+	path = icsp.path;
+	filenamelist = icsp.listdir;
+	disript = icsp.discript;
+	html_OL_children = $('icsp').children;
+	for (i in html_OL_children) {
+		cell = html_OL_children[i];
+		content = cell.children[0];
+		icon_ply = cell.children[1];
+		content.textContent = filenamelist[i] +': '+ disript[i];
+		icon_ply.value = filenamelist[i];
+		icon_ply.onclick = function(){alert(this.value)};
+	}	
+</script>
+-->
+
+</body>
+</html>
+

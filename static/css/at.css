@@ -1,0 +1,214 @@
+.has-border {
+	border: 0px solid black;
+}
+.has-border-1 {
+	border: 3px solid #386D5B;
+	border-right-color: red;
+	border-left-color: red;
+}
+.h1 {
+	position : fixed;
+	color : red;
+	left : 10px;
+	top : 200px;
+}
+.circle {
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	z-index: 70;
+}
+/* radius */
+.radius-small {width: 30px; height: 30px;}
+.radius-middle {width: 50px; height: 50px;}
+.radius-big {width: 100px; height: 100px;}
+/* color */
+.red	{background: #f66;}
+.blue	{background: #076ED2;}
+.orange {background: #FF6501;}
+.green	{background: #3D8F0F;}
+.yellow {background: #FFFF01;}
+.black	{background: #000000;}
+.gray	{background : #5B5C5E;}
+.debug	{background: rgba(75, 124, 94, 0.83);}
+.poisson_1 {background: #E7E7E7;}
+.poisson_2 {background: #A5A5A5;}
+.poisson_3 {background: #67686A;}
+.poisson_4 {background: #28292B;}
+.shadow {
+    -moz-box-shadow: 20px -18px 20px #000;
+    -webkit-box-shadow: 20px -18px 20px #000;
+    box-shadow: 20px -18px 20px #000;
+}
+.body-debug {
+	background: black url(/static/img/GrassBlades.jpg) repeat fixed 50% 0%;
+}
+/* assistiveTouch */
+.poisson {
+	position: fixed;
+	border-radius: 9px;
+	-moz-box-shadow: 1px 1px 2px #000;
+    -webkit-box-shadow: 1px 1px 2px #000;
+    box-shadow: 1px 1px 2px #000;
+	-moz-opacity: 0.99;
+	-webkit-opacity: 0.99;
+	opacity: 0.99;
+	background-color: black;
+	z-index: 100000;
+}
+.center {
+	/* for debug  */
+	text-align: center;
+/*	margin: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	/* ./ */
+}
+.grid3x3 {
+	position: fixed;
+	background-color: #000;
+	opacity: 0.9;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 25px;
+	width: 270px;
+	height: 270px;
+	z-index: 100000;
+}
+.grid {
+	position: relative;
+	width: 90px;
+	height: 90px;
+	border-radius: 20px;
+}
+/* the grid position */
+.aa {left: 0px;		top: 0px;}
+.ab {left: 90px;	top: -90px;}
+.ac {left: 180px;	top: -180px;}
+.ba {left: 0px;		top: -180px;}
+.bb {left: 90px;	top: -270px;}
+.bc {left: 180px;	top: -360px;}
+.ca {left: 0px;		top: -360px;}
+.cb {left: 90px;	top: -450px;}
+.cc {left: 180px;	top: -540px;}
+/* the grid icon */
+.back.second{}
+.gesture	{background: #000 url(/static/img/gesture.png)	no-repeat 50% 50%;}
+.home		{background: #000 url(/static/img/home.png)		no-repeat 50% 50%;}
+.device		{background: #000 url(/static/img/device.png)	no-repeat 50% 50%;}
+.favorite	{background: #000 url(/static/img/favorite.png) no-repeat 50% 50%;}
+.back, .back2parent	{background: #000 url(/static/img/back.png)		no-repeat 50% 50%;}
+.left		{background: #000 url(/static/img/left.png)		no-repeat 50% 50%;}
+.right		{background: #000 url(/static/img/right.png)	no-repeat 50% 50%;}
+.media		{background: #000 url(/static/img/media.png)	no-repeat 50% 50%;}
+.zoom-in	{background: #000 url(/static/img/zoom-in.png)	no-repeat 50% 50%;}
+.zoom-out	{background: #000 url(/static/img/zoom-out.png)	no-repeat 50% 50%;}
+.image		{background: #000 url(/static/img/image.png)	no-repeat 50% 50%;}
+.video		{background: #000 url(/static/img/video.png)	no-repeat 50% 50%;}
+.play		{background: #000 url(/static/img/play.png)		no-repeat 50% 50%;}
+.pause		{background: #000 url(/static/img/pause.png)	no-repeat 50% 50%;}
+.forward	{background: #000 url(/static/img/forward.png)	no-repeat 50% 50%;}
+.backward	{background: #000 url(/static/img/backward.png)	no-repeat 50% 50%;}
+.add		{background: #000 url(/static/img/add.png)		no-repeat 50% 50%;}
+.filelist	{background: #000 url(/static/img/filelist.png)	no-repeat 50% 50%;}
+.move		{background: #000 url(/static/img/move.png)		no-repeat 50% 50%; cursor: move;}
+/* .the grid icon */
+.mplayer {
+	/* for debug  */
+	text-align: center;
+	margin: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	z-index: 80;
+	/* ./ */
+}
+.addmedia {
+	position: fixed;
+	left: 10px;
+	top: 300px;
+	background-color: black;
+	width: 260px;
+	height: 150px;
+	opacity: 0.8;
+	box-shadow: 2px 2px 9px #000;	
+}
+.addmedia label {
+	position: relative;
+	width: 40px;
+	left: 5px;
+	color: white;
+}
+#media_path {
+	position: absolute;
+	left: 38px;
+}
+.addmedia_ok {
+	position: absolute;
+	width: 60px;
+	left: 135px;
+	margin-top: 35px;
+}
+.addmedia_cancel {
+	position: absolute;
+	width: 60px;
+	left: 38px;
+	margin-top: 35px;
+}
+.filelistdiv {
+	overflow: auto;
+	position: fixed;
+	left: 0px;
+	background-color: black;
+	width: 350px;
+	height: 600px;
+	opacity: 0.9;
+	box-shadow: 3px 3px 9px #000;	
+}
+.filelistitle {
+/*	background: black url(breadcrumb_background.png) repeat 0 0; */
+	font-family: monospace;
+	font-size: large;
+	font-weight: bold;
+	height: 20px;
+	color: white;
+}
+.filelemtcell {
+	font-family: monospace;
+	font-weight: 100;
+	height: 25px;
+	width: 350px;
+}
+.icon_play {
+	position: relative;
+	top: -15px;
+	width: 25;
+	height: 25;
+	left: 100%;
+	margin-left: -25px;
+	opacity: 0.8;
+	background: #F2F5F9 url(/static/img/littleplay.png) no-repeat 50% 50%;
+	cursor: pointer;
+}
+.icon_close {
+	position: relative;
+	top: -15px;
+	width: 20;
+	height: 20;
+	left: 100%;
+	margin-left: -25px;
+	opacity: 0.8;
+	background: #000 url(/static/img/icon_close.png) no-repeat 50% 50%;
+}
+.fileinfo {
+	width: 350px;
+}
+.filelemtcell.white {background-color: #FFFFFF;}
+.filelemtcell.blue {background-color: #F2F5F9;}
