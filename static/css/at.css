@@ -41,6 +41,8 @@
     box-shadow: 20px -18px 20px #000;
 }
 .body-debug {
+	height: 1000px;
+	width: 2000px;
 	background: black url(../img/GrassBlades.jpg) repeat fixed 50% 0%;
 }
 /* assistiveTouch */

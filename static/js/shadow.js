@@ -171,7 +171,11 @@ function clickpoisson() {
 	var scale = 0.2;
 	// 1 init maingridpad.
 	var mainpad = createGridPad_3x3('main');
-	var start = Scale(poisson.offset().left, poisson.offset().top);
+	var start = Scale(
+		poisson.offset().left - $(document).scrollLeft(), 
+		poisson.offset().top - $(document).scrollTop()
+	);
+
 	var width = 270;
 	var height = 270;
 	mainpad.css({
